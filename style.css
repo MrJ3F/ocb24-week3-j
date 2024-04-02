@@ -21,7 +21,7 @@ header {
   margin-bottom: 16px;
   border-radius: 20px;
   padding-left: 20px;
-  max-width: 1200px;
+  min-width: 1200px;
   height: 96px;
   background-color: #2A2C2E;
 }
@@ -31,8 +31,8 @@ main>.container {
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  max-width: 1200px;
-  min-height: 1110px;
+  min-width: 1200px;
+  height: 1110px;
   margin: auto;
   margin-top: 20px;
   padding-left: 20px;
@@ -125,8 +125,8 @@ footer>.container>.logomedia {
   margin: auto;
   padding: 0 16px 0;
   margin-top: 16px;
-  max-width: 1200px;
-  min-height: 88px;
+  min-width: 1200px;
+  height: 88px;
   background-color: #2A2C2E;
 }
 
@@ -136,8 +136,8 @@ footer>.container>.termcontact>div {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  max-width: 1200px;
-  min-height: 40px;
+  min-width: 1200px;
+  height: 40px;
   background-color: #000000;
   color: black;
   color: white;
